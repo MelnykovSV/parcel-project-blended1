@@ -1,5 +1,12 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+// utils
+
 @import './utils/vars';
 @import './common';
+
+// components
+
 @import './components/header';
 @import './components/hero';
 @import './components/features';
