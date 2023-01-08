@@ -1,0 +1,35 @@
+.features-section {
+  background: var(--third-bg-color);
+  padding: 40px 66px 19px 66px;
+}
+
+.features-title {
+  font-size: 20px;
+  font-weight: inherit;
+  line-height: 1.65;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+.features {
+  margin: 0;
+}
+
+.features-list {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 71px;
+}
+
+.features-icon {
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 67px;
+  height: 67px;
+  fill: #ffffff;
+  background-color: #28a745;
+}

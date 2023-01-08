@@ -1,0 +1,40 @@
+.footer {
+  background-color: var(--primary-color);
+  padding: 20px 0 16px;
+}
+
+.footer-list {
+  list-style-type: none;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.footer-text {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.footer-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-icon {
+  fill: var(--secondary-color);
+}
+.footer-icon:hover,
+.footer-icon:focus {
+  fill: var(--button-active-green);
+}
