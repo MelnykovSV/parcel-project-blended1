@@ -41,19 +41,20 @@
 }
 
 .hero-buttom {
+  @include button(var(--secondary-bg-color));
   display: flex;
   gap: 5px;
   align-items: center;
   margin: 0 auto;
   padding: 10px 30px 9px 41px;
   min-width: 92px;
-  text-align: center;
-  border: transparent;
-  border-radius: 5px;
-  cursor: pointer;
+  // text-align: center;
+  // border: transparent;
+  // border-radius: 5px;
+  // cursor: pointer;
   color: var(--secondary-color);
   fill: currentColor;
-  background-color: var(--secondary-bg-color);
+  // background-color: var(--secondary-bg-color);
   font-family: inherit;
   line-height: 1.56;
   transition: background-color var(--time) var(--cubic),

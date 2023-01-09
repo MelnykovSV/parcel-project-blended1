@@ -1,0 +1,13 @@
+%list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@mixin button($bgcolor) {
+  background-color: $bgcolor;
+  text-align: center;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
