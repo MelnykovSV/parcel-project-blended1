@@ -1,42 +1,43 @@
-.blog-post-one {
+.blog-post {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
+
+  &__section {
+    margin: 0;
+    padding: 20px 44px 20px 30px;
+    color: var(--primary-bg-color);
+    max-width: 680px;
+    justify-content: space-between;
+  }
+
+  &__time {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.65;
+  }
+
+  &__name {
+    margin: 0;
+    font-size: 38px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 0;
+    line-height: 1.26;
+  }
+
+  &__text {
+    margin-top: 26px;
+    margin-bottom: 0;
+    width: 606px;
+  }
 }
 
 .blog-container {
   display: flex;
   align-items: center;
   background-color: var(--bg-color-blog-section);
-}
-
-.blog-post {
-  margin: 0;
-  padding: 20px 44px 20px 30px;
-  color: var(--primary-bg-color);
-  max-width: 680px;
-  justify-content: space-between;
-}
-
-.time {
-  margin: 0;
-  font-size: 20px;
-  line-height: 1.65;
-}
-
-.section-name {
-  margin: 0;
-  font-size: 38px;
-  font-weight: 300;
-  margin-top: 5px;
-  margin-bottom: 0;
-  line-height: 1.26;
-}
-.text {
-  margin-top: 26px;
-  margin-bottom: 0;
-  width: 606px;
 }
 
 .button-blog {
@@ -51,10 +52,9 @@
   color: var(--primary-bg-color);
   text-decoration: none;
   cursor: pointer;
-}
 
-.button-blog:hover,
-.button-blog:focus {
-  background-color: var(--button-active-blue);
-  box-shadow: var(--shadow-btn);
+  &:hover, &:focus {
+    background-color: var(--button-active-blue);
+    box-shadow: var(--shadow-btn);
+  }
 }
