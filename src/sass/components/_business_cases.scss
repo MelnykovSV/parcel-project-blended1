@@ -4,24 +4,25 @@
     padding-bottom: 50px;
   }
   
-  .busines-container {
+  .busines-cases__container {
     padding-left: 28px;
     padding-right: 28px;
   }
   
-  .busines-cases-text {
+  .busines-cases__text {
     font-size: 20px;
     line-height: 1.65;
     margin-top: 0;
     margin-bottom: 16px;
   }
   
-  .busines-text {
+  .busines-cases__subtext {
     margin-top: 0;
     margin-bottom: 40px;
   }
   
-  .busines-list {
+  .busines-cases__list {
+  
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
