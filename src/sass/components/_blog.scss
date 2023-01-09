@@ -41,19 +41,21 @@
 }
 
 .button-blog {
-  background-color: var(--bg-color-blog-section);
+  @include button(var(--bg-color-blog-section));
+  // background-color: var(--bg-color-blog-section);
   display: inline-block;
   margin-top: 17px;
   padding: 10px 35px 10px 35px;
   border: 1px solid white;
-  border-radius: 5px;
+  // border-radius: 5px;s
   font-size: 18px;
   line-height: 1.56;
   color: var(--primary-bg-color);
-  text-decoration: none;
-  cursor: pointer;
+  // text-decoration: none;
+  // cursor: pointer;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     background-color: var(--button-active-blue);
     box-shadow: var(--shadow-btn);
   }

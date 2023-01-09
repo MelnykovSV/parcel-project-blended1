@@ -43,6 +43,7 @@
 }
 
 .callback-form__btn {
+  @include button(var(--secondary-bg-color));
   padding-top: 7px;
   padding-bottom: 10px;
   width: 100%;
@@ -50,10 +51,10 @@
   line-height: 1.39;
   color: var(--secondary-color);
 
-  background-color: var(--secondary-bg-color);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  // background-color: var(--secondary-bg-color);
+  // border: none;
+  // border-radius: 5px;
+  // cursor: pointer;
 
   &:hover,
   &:focus {
