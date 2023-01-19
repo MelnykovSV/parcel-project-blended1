@@ -1,17 +1,74 @@
 <section class="callback-section">
   <div class="container callback-section__container">
-    <img
-      src="./images/request-callback-img.jpg"
-      alt="The person leaves a feedback"
-      width="680"
-    />
+    <picture>
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./images/callback-mobile.webp    1x,
+          ./images/callback-mobile@2x.webp 2x,
+          ./images/callback-mobile@3x.webp 3x
+        "
+        type="image/webp"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="
+          ./images/callback-mobile.jpg    1x,
+          ./images/callback-mobile@2x.jpg 2x,
+          ./images/callback-mobile@3x.jpg 3x
+        "
+        type="image/jpeg"
+      />
+      <source
+        media="(min-width: 1360px)"
+        srcset="
+          ./images/callback-desktop.webp    1x,
+          ./images/callback-desktop@2x.webp 2x,
+          ./images/callback-desktop@3x.webp 3x
+        "
+        type="image/webp"
+      />
+      <source
+        media="(min-width: 1360px)"
+        srcset="
+          ./images/callback-desktop.jpg    1x,
+          ./images/callback-desktop@2x.jpg 2x,
+          ./images/callback-desktop@3x.jpg 3x
+        "
+        type="image/jpeg"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/callback-tablet.webp    1x,
+          ./images/callback-tablet@2x.webp 2x,
+          ./images/callback-tablet@3x.webp 3x
+        "
+        type="image/webp"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/callback-tablet.jpg    1x,
+          ./images/callback-tablet@2x.jpg 2x,
+          ./images/callback-tablet@3x.jpg 3x
+        "
+        type="image/jpeg"
+      />
+      <img
+        class="callback-section__img"
+        src="./images/callback-mobile.jpg"
+        alt="The person leaves a feedback"
+        
+      />
+    </picture>
 
     <div class="callback-section__box">
       <h2 class="section-title">Request Callback</h2>
 
       <form class="callback-form">
         <input
-          class="callback-form__input"
+          class="callback-form__input callback-form__username"
           type="text"
           name="name"
           aria-label="user name"
@@ -19,7 +76,7 @@
         />
 
         <input
-          class="callback-form__input"
+          class="callback-form__input callback-form__email"
           type="email"
           name="email"
           aria-label="email"
