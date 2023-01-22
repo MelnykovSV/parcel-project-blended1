@@ -39,14 +39,18 @@
 }
 .team__list {
   @extend %list;
+
   // display: flex;
+
   gap: 15px;
+
 
   @include tablet{
     display: flex;
   }
 }
 .team__name{
+
   font-weight: 400;
   font-size: 23px;
   line-height: calc(29 / 23);
@@ -83,10 +87,10 @@
   top: 130px;
   opacity: 0;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-&:hover {
-  opacity: 1;
-}
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .team__img:hover ~ .soc__list {

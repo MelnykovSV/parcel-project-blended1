@@ -4,6 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page title</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.4/simple-lightbox.min.css"
+      integrity="sha512-ka1/Z+PCN6JAoOVT50Ujjhq74r3hE0r433lM5X3VlLmxXRRkAJIPSXiZlccGx6Syd56QW+rPoYaLHm5iIPthLg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./sass/main.scss" />
   </head>
   <body>
@@ -12,8 +33,8 @@
       <include src="./partials/header.html"></include>
       <!-- @Kateryna Baturevych -->
       <include src="./partials/hero.html"></include>
-      <!-- @Nadiia Fedoriv -->
     </div>
+    <!-- @Nadiia Fedoriv -->
     <include src="./partials/features.html"></include>
     <!-- @MariKoval -->
     <include src="./partials/bespoke_solutions.html"></include>
@@ -27,6 +48,67 @@
     <include src="./partials/callback.html"></include>
     <!-- @Ганна  -->
     <include src="./partials/footer.html"></include>
+
+    <div class="js-overlay-modal">
+      <div class="modal modal1" data-modal="1">
+        <button class="modal__button js-modal-close">
+          X
+          <svg class="modal__icon">
+            <use href="./images/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal__text">Modal #1</p>
+      </div>
+      <div class="modal modal1" data-modal="2">
+        <button class="modal__button js-modal-close">
+          X
+          <svg class="modal__icon">
+            <use href="./images/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal__text">Modal #2</p>
+      </div>
+      <div class="modal modal1" data-modal="3">
+        <button class="modal__button js-modal-close">
+          X
+          <svg class="modal__icon">
+            <use href="./images/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal__text">Modal #3</p>
+      </div>
+    </div>
+
+    <div class="up-button">
+      <svg width="35px" height="35px">
+        <use href="./images/symbol-defs.svg#icon-book-reader"></use>
+      </svg>
+      <a
+        class="up-button__link animate__animated animate__heartBeat animate__slow animate__delay-2s"
+        href="#home"
+        >&#8963;</a
+      >
+    </div>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
     <script type="module" src="./index.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.4/simple-lightbox.min.js"
+      integrity="sha512-IKDNPsyNuvwDr8D2nIcJVgNFuj3XXdV0jJ5S6E+nYwl5RiLxrd51TnDJDN1lQJrVdF4K849Lizr12ZCZV81MoA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>
